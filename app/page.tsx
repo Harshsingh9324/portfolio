@@ -26,7 +26,7 @@ export default function Home() {
         <div className="home">
           <p className="hello text-3xl font-semibold pb-15">Hello</p>
           <h1 className="name text-4xl font-bold pb-15">
-            I'm <span className="blue-color">Kishan Jaiswar</span>
+            I&apos;m <span className="blue-color">Kishan Jaiswar</span>
           </h1>
           <h2 className="designation text-3xl font-bold pb-15">A Passionate <span className="blue-color">Frontend Developer</span></h2>
           <p className="text-base p-color">
@@ -129,7 +129,7 @@ export default function Home() {
           <div className="wrap flex gap-5 w-[100%] lg:w-[85%]">
             <div className="intro bg-[#2d2d2d] w-1/2 p-5 rounded-lg">
               <h3 className="text-2xl font-semibold mb-6 blue-color">Introduction</h3>
-              <p className="text-base p-color">Hello! I'm Kishan Jaiswar, a dedicated React Developer with a passion for building interactive and user-friendly web applications. With a knack for both front-end and back-end development, I strive to create seamless digital experiences that meet modern standards.</p>
+              <p className="text-base p-color">Hello! I&apos;m Kishan Jaiswar, a dedicated React Developer with a passion for building interactive and user-friendly web applications. With a knack for both front-end and back-end development, I strive to create seamless digital experiences that meet modern standards.</p>
             </div>
             <div className="carrer p-5 w-1/2 rounded-lg">
               <h3 className="text-2xl font-semibold mb-6 blue-color">Career Goals</h3>
