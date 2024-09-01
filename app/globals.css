@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: black;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.nav-links {
+    background-color: #2d2d2d;
+}
+
+.main {
+    padding: 0 35px;
+}
+
+.blue-color {
+    color: #7eadfc
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-35 {
+    padding-bottom: 35px;
+}
+
+.blue-bg {
+    background-color: #7eadfc;
+}
+
+.p-color {
+    color: rgb(235, 235, 235)
+}
+
+@media screen and (max-width:900px) and (min-width:768px) {
+    .image {
+        width: 375px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main {
+        padding: 0 20px;
+    }
+
+    .responsive-header {
+        padding: 20px;
+    }
+
+    .skills-card,
+    .intro,
+    .carrer {
+        width: 100% !important;
+    }
+
+    .skill {
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .projects {
+        flex-direction: column-reverse;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .home {
+        text-align: center;
+    }
+
+    .hello {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .name,
+    .designation {
+        font-size: 27px;
+        line-height: 33px;
+    }
+}
