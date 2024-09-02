@@ -66,7 +66,7 @@ const Header = () => {
                   </li>
                 ))}
               </ul>
-              <ul className="nav-icons flex space-x-6 text-xl pt-[20px]">
+              {/* <ul className="nav-icons flex space-x-6 text-xl pt-[20px]">
                 {navIcons.map((obj, index) => {
                   return (
                     <li key={index}>
@@ -76,7 +76,7 @@ const Header = () => {
                     </li>
                   );
                 })}
-              </ul>
+              </ul> */}
             </div>
           </header>
         }
