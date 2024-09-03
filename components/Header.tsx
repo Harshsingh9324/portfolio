@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <div>
       <header className='lg:block hidden'>
-        <nav className='fixed w-full z-10 flex items-center justify-between px-8 py-5 bg-black text-white' style={{ borderBottom: '1px solid white' }}>
+        <nav className='absolute fixed w-full z-10 flex items-center justify-between px-8 py-5 bg-black text-white' style={{ borderBottom: '1px solid white' }}>
           <div className="logo">
             <p className='text-3xl blue-color font-bold capitalize'><Link href="#home">Kishan Jaiswar</Link></p>
           </div>
