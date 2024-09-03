@@ -47,17 +47,17 @@ export const navIcons: NavIcons[] = [
     {
         name: "LinkedIn",
         icon: FaLinkedin,
-        link: "https://linkedin.com/in/kishan-jaiswar12"
+        link: "https://linkedin.com/in/harsh-singh-a1598623a"
     },
     {
         name: "GitHub",
         icon: FaGithub,
-        link: "https://github.com/KishanJaiswar"
+        link: "https://github.com/Harshsingh9324"
     },
     {
         name: "Gmail",
         icon: FaEnvelope,
-        link: "mailto:jaiswarkishan78@gmail.com"
+        link: "mailto:singhharsh2042002@gmail.com"
     }
 ];
 

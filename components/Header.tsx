@@ -16,7 +16,7 @@ const Header = () => {
       <header className='lg:block hidden'>
         <nav className='absolute fixed w-full z-10 flex items-center justify-between px-8 py-5 bg-black text-white' style={{ borderBottom: '1px solid white' }}>
           <div className="logo">
-            <p className='text-3xl blue-color font-bold capitalize'><Link href="#home">Kishan Jaiswar</Link></p>
+            <p className='text-3xl blue-color font-bold capitalize'><Link href="#home">Harsh Singh</Link></p>
           </div>
           <ul className="nav-links flex space-x-6 rounded-2xl">
             {navlinks?.map((obj, index) => (
@@ -45,14 +45,14 @@ const Header = () => {
       <div className='fixed w-full bg-black z-10'>
         {!open &&
           <div className='lg:hidden flex p-[20px] border-b border-white justify-between items-center'>
-            <p className='text-3xl blue-color font-bold capitalize'><Link href="#home">Kishan Jaiswar</Link></p>
+            <p className='text-3xl blue-color font-bold capitalize'><Link href="#home">Harsh Singh</Link></p>
             <GiHamburgerMenu className='font-5xl text-white' onClick={() => setOpen(true)} />
           </div>
         }
         {open &&
           <header className='lg:hidden block text-white p-[20px]'>
             <div className="logo flex items-center justify-between border-b border-white pb-[20px]">
-              <p className='text-3xl blue-color font-bold capitalize'><Link href="#home">Kishan Jaiswar</Link></p>
+              <p className='text-3xl blue-color font-bold capitalize'><Link href="#home">Harsh Singh</Link></p>
               <AiOutlineClose className='text-white font-4xl' onClick={() => setOpen(false)} />
             </div>
             <div className='pb-[20px]'>
